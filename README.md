@@ -110,7 +110,7 @@ underlying business.
 ![Terminal value](docs/05-terminal-value.png)
 
 **Step 6 — Equity valuation and price per share**
-![Price per share](docs/06-price-per-share.png)
+![Price per share](docs/dashboard.png)
 
 </details>
 

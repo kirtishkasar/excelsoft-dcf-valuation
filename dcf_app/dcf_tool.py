@@ -197,8 +197,8 @@ with t6:
     st.subheader("Step 6: Equity Valuation & Price")
     # Enterprise Value (EV) = PV of Stage 1 + PV of Terminal Value
     final_results = {
-        "Valuation Component": ["Enterprise Value (NPV)", "(-) Total Net Debt", "(=) Equity Value", "(÷) Shares Outstanding", "Intrinsic Value Per Share"],
-        "Amount": [f"{round(ev, 2)}",f"{round(total_debt, 2)}" ,f"{round(equity_value, 2)}" , shares_outstanding, f"₹ {round(intrinsic_value, 2)}"]
+        "Valuation Component": ["Enterprise Value (NPV)", "(-) Net Debt", "(=) Equity Value", "(÷) Shares Outstanding", "Intrinsic Value Per Share"],
+        "Amount": [f"{round(ev, 2)}",f"{round(total_debt_book_value, 2)}" ,f"{round(equity_value, 2)}" , shares_outstanding, f"₹ {round(intrinsic_value, 2)}"]
     }
     st.table(pd.DataFrame(final_results))
     

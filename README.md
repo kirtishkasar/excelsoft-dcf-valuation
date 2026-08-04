@@ -4,12 +4,14 @@ A discounted cash flow valuation of Excelsoft Technologies Limited, prepared ahe
 November 2025 listing on the NSE and BSE. Includes an interactive Streamlit dashboard where
 each input can be adjusted and the valuation recomputed live.
 
+**[Live dashboard →](https://excelsoft-dcf-valuation.streamlit.app)**
+
 ![Valuation dashboard](docs/dashboard.png)
 
 ## Context
 
 Coursework for the Financial Management module, MBA programme, FOM University of Applied
-Sciences, Munich. Co-authored with Shashank Prasanna Reddy.
+Sciences, Munich. Co-authored with [Shashank Prasanna Reddy](https://www.linkedin.com/in/shashank-reddy-642351120/).
 
 The brief: value the company from its prospectus and issue a recommendation on the IPO at
 the ₹120 offer price. Report date window 22–30 November 2025.
